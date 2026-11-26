@@ -1,0 +1,25 @@
+package ie.atu.dip;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ClassTest {
+
+	@Test
+	void test() {
+		String strExpectedResult = "Junit5 is working";
+		String strActualResult = "Junit5 is working";
+		
+		assertEquals(strExpectedResult, strActualResult);
+	}
+	
+	@Test
+	void anotherTest() {
+		String strExpectedResult = "Junit5 is NOT working";
+		String strActualResult = "Junit5 is working";
+		
+		assertEquals(strExpectedResult, strActualResult);
+	}
+
+}

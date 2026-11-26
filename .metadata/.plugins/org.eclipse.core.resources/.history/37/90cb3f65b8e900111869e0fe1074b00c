@@ -1,0 +1,18 @@
+package ie.atu.dip;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class HelloWordClassTest {
+
+	@Test
+	void test() {
+		HelloWorldClass helloWorldClass = new HelloWorldClass();
+		String strActualResult = helloWorldClass.SayHello();
+		
+		assertEquals("Hello", strActualResult);
+
+	}
+
+}
